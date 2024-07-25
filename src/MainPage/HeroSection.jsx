@@ -42,7 +42,7 @@ const HeroSection = () => {
     return <div className="text-center text-4xl text-red-600">Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
   return (
-    <section>
+    <section className="bg-[whitesmoke]">
       <div style={{ width: "100%", margin: "auto", position: "relative" }}>
         <Carousel autoplay dotPosition="right" className="">
           {data.map((slide, index) => (

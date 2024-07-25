@@ -102,17 +102,6 @@ const Footer = () => {
               &#9993;
             </button>
           </form>
-          <div className="flex space-x-4 mt-4 mb-10">
-            <a href="#" className="text-yellow-600">
-              <img src="linkedin.png" alt="LinkedIn" className="w-10 h-10" />
-            </a>
-            <a href="#" className="text-yellow-600">
-              <img src="twitter.png" alt="Twitter" className="w-10 h-10" />
-            </a>
-            <a href="#" className="text-yellow-600">
-              <img src="facebook.png" alt="Facebook" className="w-10 h-10" />
-            </a>
-          </div>
         </div>
       </div>
     </footer>

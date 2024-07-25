@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiUrl = "https://api.heritagecapitals.com.ng/api/Slider";
-const apiUr = "https://api.heritagecapitals.com.ng/api/Services";
+// const apiUr = "https://api.heritagecapitals.com.ng/api/Services";
 
 export const fetchData = async () => {
   const apiKey = "your_api_key_here"; // password created by the backend for security and to track usage
